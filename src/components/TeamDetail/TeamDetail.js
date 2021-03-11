@@ -26,7 +26,7 @@ const TeamDetail = (props) => {
         <div className="badgeStyle">
             
             <div className="badgeStyle">
-            <img src={team.strTeamBadge}/>
+            <img src={team.strTeamBadge} alt=""/>
             </div>
             
             <div className="moreStyle">

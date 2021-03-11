@@ -24,8 +24,6 @@ const Home = () => {
         <div>
             <div class="homeDesign">
                 
-                
-
             </div>
         <div style={homeStyle}>
             

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useHistory } from 'react-router';
-import TeamDetail from '../TeamDetail/TeamDetail';
 import   './Team.css'
 
 const Team = (props) => {
@@ -25,11 +24,9 @@ const Team = (props) => {
     return (
         <div>
            
-        <div style={teamStyle} className="teamStyle">
+        <div style={teamStyle} className="teamStyle"> 
             
-            
-            
-            <img src={strTeamBadge}></img>
+            <img src={strTeamBadge} alt=""></img>
             <h3>{strTeam}</h3>
             <p>Sport Type:{strSport}</p>
             <button onClick={() => handleClick(idTeam)}> Click Me </button>
